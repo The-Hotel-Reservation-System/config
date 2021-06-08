@@ -9,6 +9,7 @@ spring:
     username: postgres
     password: root
   flyway:
+    locations: classpath:db/migration
     schemas: public
     user: postgres
     password: root

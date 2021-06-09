@@ -10,6 +10,7 @@ spring:
     password: root
   flyway:
     schemas: public
+    url: jdbc:postgresql://localhost:5432/guest
     user: postgres
     password: root
     enabled: true
